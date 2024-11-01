@@ -1,0 +1,12 @@
+Country: Malaysia
+Population: 32365998 people
+Currencies: Malaysian ringgit
+Timezones: UTC+08:00
+Continent: Asia
+Capital: Kuala Lumpur
+Languages: English, Malay
+Region: Asia
+Subregion: South-Eastern Asia
+MapsLink: https://goo.gl/maps/qrY1PNeUXGyXDcPy6
+Flags: https://flagcdn.com/w320/my.png
+CoatOfArms: https://mainfacts.com/media/images/coats_of_arms/my.png

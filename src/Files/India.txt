@@ -1,0 +1,12 @@
+Country: India
+Population: 1380004385
+Currencies: Indian rupee
+Timezones: UTC+05:30
+Continent: Asia
+Capital: New Delhiaa
+Languages: English, Hindi, Tamil
+Region: Asia
+Subregion: Southern Asia
+MapsLink: https://goo.gl/maps/WSk3fLwG4vtPQetp7
+Flags: https://flagcdn.com/w320/in.png
+CoatOfArms: https://mainfacts.com/media/images/coats_of_arms/in.png

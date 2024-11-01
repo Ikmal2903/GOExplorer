@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO EXPLORE</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Images/bg5.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
+        }
+        h1 {  
+            text-align: left;
+            padding: 20px;
+            background-color: #0000002f; /* Navigation bar color */
+            color: white;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            margin: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .form-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        input[type="text"] {
+            padding: 12px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            font-size: 1rem;
+            width: 250px;
+            transition: all 0.3s ease;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #006d77;
+            box-shadow: 0 0 8px rgba(0, 109, 119, 0.2);
+        }
+        button {
+            padding: 10px 20px;
+            background-color:#028090;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #006d77;
+        }
+        .card {
+            background-color: rgb(226, 226, 226);
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            max-width: 600px;
+            padding: 30px;
+            margin: 20px auto;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        .card h2 {
+            font-size: 1.8rem;
+            color: #006d77;
+            text-align: center;
+            margin: 10px 0 20px;
+        }
+        .card p {
+            font-size: 1rem;
+            color: #555;
+            margin: 8px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .data-label {
+            font-weight: 600;
+            color: #006d77;
+        }
+        .card img {
+            max-width: 80px;
+            margin: 10px auto;
+            display: block;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .button-group button {
+            padding: 12px 20px; /* Adjust padding for balanced size */
+            font-size: 1rem; /* Match the font size with other buttons */
+            border-radius: 25px; /* Ensure the style matches the search button */
+            font-weight: bold;
+            background-color: #028090;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-group button:hover {
+            background-color: #006d77;
+        }
+
+        .navbar {
+                background-color: #00000048; /* Navigation bar color */
+                padding: 10px;
+                display: flex;
+                justify-content: flex;
+                align-items: center;
+            }
+    
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 10px 15px;
+                border-radius: 5px;
+                justify-content: right;
+                transition: background-color 0.3s;
+            }
+    
+            .navbar a:hover {
+                background-color: #83c5be; /* Hover effect for links */
+            }
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+      <h1>GO EXPLORE</h1>
+      <a href="index.html">Home</a>
+      <a href="aboutUs.html">About Us</a>
+      <a href="viewitineraries.html">View Itineraries</a>
+  </div>
+    <div class="form-container">
+        <div>
+            <input type="text" id="country1-input" placeholder="Eg: Japan, Malaysia"><button onclick="buttonClicked()">Search</button>
+        </div>
+        
+    </div>
+
+    <div class="card">
+        <p><img id="flags">
+        <h2 id="country1">Country Name</h2>
+        <p>---------------------------------------------------------------------------------------------</p>
+        <p><span class="data-label">Area:</span> <span id="area"></span></p>
+        <p><span class="data-label">Location:</span> <span id="location"></span></p>
+        <p><span class="data-label">Population:</span> <span id="population1"></span></p>
+        <p><span class="data-label">Currencies:</span> <span id="currencies1"></span></p>
+        <p><span class="data-label">Timezones:</span> <span id="timezone1"></span></p>
+        <p><span class="data-label">Continent:</span> <span id="continent1"></span></p>
+        <p><span class="data-label">Capital:</span> <span id="capital1"></span></p>
+        <p><span class="data-label">Languages:</span> <span id="languages1"></span></p>
+        <p><span class="data-label">Region:</span> <span id="region"></span></p>
+        <p><span class="data-label">Subregion:</span> <span id="subregion"></span></p>
+        <p><span class="data-label">Maps:</span> <span id="maps"></span></p>
+    </div>  
+    <div class="card">         
+      <h3>Coat Of Arms</h3>
+      <img id="coatofarms"></p>
+    </div>
+    <div class="card"><h3>Nearby Countries</h3>
+      <span id="nearbyCountries"></span></p>
+    </div>
+
+    <div class="button-group">
+        <button onclick="saveCountry()">Save</button>
+        <button onclick="View()">Next</button>
+    </div>
+
+  
+    <script src="main.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

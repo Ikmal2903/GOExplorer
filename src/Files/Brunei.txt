@@ -1,0 +1,12 @@
+Country: Brunei
+Population: 437483 people
+Currencies: Brunei dollar, Singapore dollar
+Timezones: UTC+08:00
+Continent: Asia
+Capital: Bandar Seri Begawan
+Languages: Malay
+Region: Asia
+Subregion: South-Eastern Asia
+MapsLink: https://goo.gl/maps/4jb4CqBXhr8vNh579
+Flags: https://flagcdn.com/w320/bn.png
+CoatOfArms: https://mainfacts.com/media/images/coats_of_arms/bn.png

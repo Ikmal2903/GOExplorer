@@ -1,0 +1,12 @@
+Country: United States
+Population: 329484123
+Currencies: United States dollar
+Timezones: UTC-12:00, UTC-11:00, UTC-10:00, UTC-09:00, UTC-08:00, UTC-07:00, UTC-06:00, UTC-05:00, UTC-04:00, UTC+10:00, UTC+12:00
+Continent: North America
+Capital: Washington, D.C.
+Languages: English
+Region: Americas
+Subregion: North America
+MapsLink: https://goo.gl/maps/e8M246zY4BSjkjAv6
+Flags: https://flagcdn.com/w320/us.png
+CoatOfArms: https://mainfacts.com/media/images/coats_of_arms/us.png
